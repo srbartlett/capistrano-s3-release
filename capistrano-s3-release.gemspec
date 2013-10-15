@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Capistrano::S3::Release::VERSION
   spec.authors       = ["Stephen Bartlett"]
   spec.email         = ["stephenb@rtlett.org"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Capistrano 3 task to release your deployment artifact to Amazon S3.}
+  spec.summary       = %q{Capistrano 3 task to release your deployment artifact to Amazon S3.}
+  spec.homepage      = "https://github.com/srbartlett/capistrano-s3-release"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
